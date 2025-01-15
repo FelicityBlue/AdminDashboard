@@ -1,0 +1,53 @@
+body{
+    background-color: yellow;
+    padding: 0.5rem;
+}
+#sidebar{
+    background-color: pink;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    flex-grow: 1;
+}
+#main-content{
+    background-color: lightblue;
+    flex-grow: 6;
+    padding: 1rem;
+}
+#profile{
+    gap: 0.75rem;
+}
+.icon{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.container{
+    display:flex;
+}
+.container-item{
+    display: flex;
+    gap: 0.5rem;
+}
+.info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.info-container > div{
+    display: flex;
+}
+.info-container input[type=text]{
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 12rem;
+    margin-left: 1rem;
+}
+.profile-pic{
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+}
